@@ -44,3 +44,4 @@ let fruits = ["mango","apple","banana"];
 console.log(fruits);
 fruits[2]="kiwi";
 console.log(fruits);
+console.log(fruits[2])
