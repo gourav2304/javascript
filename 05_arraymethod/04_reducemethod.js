@@ -2,10 +2,10 @@
 
 // const numbers = [1,2,3,4,5,10]
 
-// const sum = numbers.reduce((accumulator,currentValue)=>{
+// const sums = numbers.reduce((accumulator,currentValue)=>{
 //     return accumulator+currentValue
 // })
-// console.log(sum);
+// console.log(sums);
 //accumulator    currentValue       return
 // 1                       2              3
 // 3                       3              6
