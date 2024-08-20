@@ -1,17 +1,17 @@
-console.log("Gourav")
-const accountId =13343
-let accountName = "Gourav"
-var accountPassword = "00912A"
-accountCity = "jaipur"
+// console.log("Gourav")
+// const accountId =13343
+// let accountName = "Gourav"
+// var accountPassword = "00912A"
+// accountCity = "jaipur"
 
 /*
 please dont use var 
 beacause of issue in block scope and functional scope
 */
 
-accountCity = "Bengaluru"
-accountPassword = "00618"
-console.table([accountName,accountId,accountPassword,accountCity]);
+// accountCity = "Bengaluru"
+// accountPassword = "00618"
+// console.table([accountName,accountId,accountPassword,accountCity]);
 
 // you cannot start with number
 
@@ -51,7 +51,7 @@ console.table([accountName,accountId,accountPassword,accountCity]);
 
 //Declare const
 
-const pi = 3.14
+// const pi = 3.14
 //pi = 3.15 give error cant able to change const value
-console.log(pi)
-console.log(ppi)
+// console.log(pi)
+// console.log(ppi)
