@@ -13,24 +13,24 @@ const myHeros = ["saktiman","doga","powerranger"]
 // myArr.unshift(9)
 // myArr.shift()//The shift() method removes the element at the zeroth index 
 
-//  console.log(myArr.includes(9))
-//  console.log(myArr.indexOf(3))
+  //console.log(myArr.includes(9))//The includes() method of Array instances determines whether an array includes a certain value among its entries, returning true or false as appropriate.
+  //console.log(myArr.indexOf(3))
 
-const newArr = myArr.join()
-// console.log(myArr);
-// console.log(newArr);
+// const newArr = myArr.join()//it is use to seperate the space and commas in array entities as i command,
+//  console.log(myArr);
+//  console.log(newArr);
 
-console.log("A", myArr)
+// console.log("A", myArr)
 
-const myn1 = myArr.slice(1,3)
+// const myn1 = myArr.slice(1,3)
 
-console.log(myn1)
-console.log("B",myArr)
+// console.log(myn1)
+// console.log("B",myArr)
 
-const myn2 = myArr.splice(1,3)
+// const myn2 = myArr.splice(1,3)
 
-console.log("C",myArr);
-console.log(myn2)
+// console.log("C",myArr);
+// console.log(myn2)
 
 //ordered collection of items
 
@@ -75,6 +75,6 @@ console.log(myn2)
 
 // heap memory ["banana","apple","mango"] 01dxx is address 
 
-const fruits =["banana","apple","mango"]; // when ever use reference type use const type 
-fruits.push("pineapple");
-console.log(fruits);
+// const fruits =["banana","apple","mango"]; // when ever use reference type use const type 
+// fruits.push("pineapple");
+// console.log(fruits);
