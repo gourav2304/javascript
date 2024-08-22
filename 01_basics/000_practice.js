@@ -29,9 +29,9 @@
 function Hello(x){
     var a = 'varA'
     var b = 'varB'
-    return function(a,b,x){
+    return function(){
         console.log(a,b,x)
     }
 }
-const ans = Hello(a,b,x)
+const ans = Hello("arg")
 ans();
