@@ -26,12 +26,17 @@
 // const ans = print("gourav","barnwal")
 // console.log(ans)
 
-function Hello(x){
-    var a = 'varA'
-    var b = 'varB'
-    return function(){
-        console.log(a,b,x)
-    }
-}
-const ans = Hello("arg")
-ans();
+// function Hello(x){
+//     var a = 'varA'
+//     var b = 'varB'
+//     return function(){
+//         console.log(a,b,x)
+//     }
+// }
+// const ans = Hello("arg")
+// ans();
+process.stdin.setEncoding('utf8');
+
+    process.stdin.on('data', function (input) {
+       console.log(input);
+    });
