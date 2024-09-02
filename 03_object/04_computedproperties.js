@@ -15,4 +15,6 @@ const obj ={};
 
 obj[key1] = "value1";
 obj[key2] = "value2";
+obj[key3] = "value3";
+
 console.log(obj);
