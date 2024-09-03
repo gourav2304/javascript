@@ -17,6 +17,7 @@ const users =[
     {userId:3, userName:"rajan"},
     {userId:4, userName:"rishu"},
     {userId:5, userName:"preety"}
+    {userId:6, userName:"preet"}
 ]
 const myUser = users.find((user)=>{return user.userId===3})
 console.log(myUser );
