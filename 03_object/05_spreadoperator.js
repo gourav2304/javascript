@@ -17,4 +17,6 @@ const obj2 ={
 };
 // const newObject = {...obj1,...obj2, key:value69};// we can also add extra value key:value69 like 
 const newObject = {...['item1','item2']}
+const newObject2 = {..."abc"}
 console.log(newObject);
+console.log(newObject2);

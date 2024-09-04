@@ -1,1 +1,2 @@
-123456789
+const [user1, ,{gender}] = users;
+// console.log(user1)

@@ -53,7 +53,7 @@ const myHeros = ["saktiman","doga","powerranger"]
 
 //primitive and reference 
 
-// let num1 = 1;
+// let num1 = 6;
 // let num2 = num1;
 // console.log("num1", num1);
 // console.log("num2", num2);
@@ -78,3 +78,7 @@ const myHeros = ["saktiman","doga","powerranger"]
 // const fruits =["banana","apple","mango"]; // when ever use reference type use const type 
 // fruits.push("pineapple");
 // console.log(fruits);
+
+const pi = 3.14;
+pi = 3.15;  // not valid 
+console.log(pi)

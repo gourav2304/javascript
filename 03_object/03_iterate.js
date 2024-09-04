@@ -17,6 +17,7 @@ const person = {
 // console.log(val);
 
 //for of loop 
+
 for(let key of Object.keys(person)){
     console.log(person[key]);
 }
