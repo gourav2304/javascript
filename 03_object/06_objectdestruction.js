@@ -16,6 +16,11 @@ const users = [
     {userId:1,firstName:"Gourav",gender:"male"},
     {userId:2,firstName:"Sourav",gender:"male"},
     {userId:3,firstName:"Surbhi",gender:"female"}
-    ]
-const [user1, ,{gender}] = users;
-console.log(user1);
+]
+    // for(let user of users){
+    //     console.log(user)
+    //     console.log(user.firstName )
+    // }
+ const [{firstName}, ,{gender}] = users;
+console.log(firstName);
+console.log(gender);
