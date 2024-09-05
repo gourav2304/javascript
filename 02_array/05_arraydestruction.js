@@ -10,4 +10,9 @@ console.log("the value of myVar1" , myVar1);
 console.log("the value of myVar2" , myVar2);
 console.log(myNewArray);
 
+const arr = [1, 2, 3];
+[arr[2], arr[1]] = [arr[1], arr[2]];
+console.log(arr); // [1, 3, 2]
+
+
  
