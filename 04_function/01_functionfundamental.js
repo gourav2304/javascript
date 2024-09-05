@@ -25,7 +25,7 @@ function isEven(number){
 //output: firstCharacter
 
 // function firstchar(anystring){
-//     return(anystring[0])
+//     return(anystring[2])
 // }
 // console.log(firstchar("abc"))
 
@@ -33,18 +33,18 @@ function isEven(number){
 // input : array, target (number)
 // output: index of target if target present in array 
 
-function findTarget(array,target){
-    for(let i=0 ; i<=array.length;i++){
-        if(array[i]===target){
-            return(i);
-        }
+// function findTarget(array,target){
+//     for(let i=0 ; i<=array.length;i++){
+//         if(array[i]===target){
+//             return(i);
+//         }
             
-    }
-    return-1
-}
-const myArray = [1,4,6,7,9];
-const ans = findTarget(myArray,9);
-console.log(ans);
+//     }
+//     return-1
+// }
+// const myArray = [1,4,6,7,9];
+// const ans = findTarget(myArray,9);
+// console.log(ans);
 
 
 // Function findTarget(array, target):
@@ -62,3 +62,15 @@ console.log(ans);
 // Stores the returned index in the ans variable.
 // Prints the value of ans to the console.
 
+function findTheArray (array, target ){
+    for(let i=0;i<array.length;i++){
+        if(array[i]==target){
+            return i;
+        }
+        
+    }
+    return -1;
+}
+const myArray = [1,2,3,7,90]
+const ans = findTheArray(myArray, 3)
+console.log(ans);
