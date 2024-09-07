@@ -108,15 +108,21 @@ let str3 = str1 + str2
 // console.log("1" + 2 + 3)
 // console.log((3 + 5) * 2 % 3)
 
-let gamerCount =100
-gamerCount++;
-console.log(gamerCount)
+// let gamerCount =100
+// gamerCount++;
+// console.log(gamerCount)
 
-var num1 = 2;
-var num2 = 5;
-var test1 = num1 % 2
-var test2 = num2 % 2
-var result1 = test1 ==0
-var result2 = test2 ==0
-console.log("Is", num1, "an even number?", result1)
-console.log("Is", num2, "an even number?", result2)
+// var num1 = 2;
+// var num2 = 5;
+// var test1 = num1 % 2
+// var test2 = num2 % 2
+// var result1 = test1 ==0
+// var result2 = test2 ==0
+// console.log("Is", num1, "an even number?", result1)
+// console.log("Is", num2, "an even number?", result2)
+
+
+let num1 ="5";
+let num2 = 6;
+ let ans = num1+num2;
+ console.log(ans)// output: 56 typeof string
