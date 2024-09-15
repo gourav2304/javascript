@@ -1,6 +1,6 @@
 // array method 
 //for each 
-const numbers = [4,2,5,8]
+// const numbers = [4,2,5,8]
 
 // function myFunc(number,index ){
 //     console.log(`index is ${index} number is ${number}`);
@@ -23,19 +23,37 @@ const numbers = [4,2,5,8]
 // })
 
 
-const users = [
-    {firstName:"Gourav",age:24},
-    {firstName:"Sourav",age:23},
-    {firstName:"karan",age:22},
-    {firstName:"Rishu",age:22},
-    {firstName:"Preety",age:22}
-]
-// users.forEach(function(user){
+// const users = [
+//     {firstName:"Gourav",age:24},
+//     {firstName:"Sourav",age:23},
+//     {firstName:"karan",age:22},
+//     {firstName:"Rishu",age:22},
+//     {firstName:"Preety",age:22}
+// ]
+// // users.forEach(function(user){
+// //     console.log(user.firstName)
+// // });
+// users.forEach(user=>{
 //     console.log(user.firstName)
 // });
-users.forEach(user=>{
-    console.log(user.firstName)
-});
-// for(let user of users){
-//     console.log(user.firstName);
-// }
+// // for(let user of users){
+// //     console.log(user.firstName);
+// // }
+
+// const marbleColors = ["blue", "red"," pink", "green","white"];
+// marbleColors.forEach((index,marbleColor)=>{
+//     console.log(`${marbleColor}: ${index}`)
+// })
+
+const result = [];
+const drone = {
+    speed: 100,
+    color: "yellow"
+}
+const dronekeys = Object.keys(drone);
+dronekeys.forEach(function(key){
+    result.push(key,drone[key])
+})
+console.log(result)
+
+
