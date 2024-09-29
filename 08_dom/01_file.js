@@ -1,4 +1,4 @@
-const btn = document.querySelector(".btn-headline");
+// const btn = document.querySelector(".btn-headline");
 // function(clickMe){
 //     console.log("you clicked me  !!!!") //using function outside 
 

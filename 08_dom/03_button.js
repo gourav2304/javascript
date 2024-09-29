@@ -19,10 +19,10 @@
 // })
 
 //practice for click event changing color by click
-const allButtons = document.querySelectorAll(".my-buttons button");
-allButtons.forEach(button=>{
-    button.addEventListener('click',(e)=>{
-        e.target.style.backgroundColor = "yellow"
-        e.target.style.color ="#333"
-    })
-})
+// const allButtons = document.querySelectorAll(".my-buttons button");
+// allButtons.forEach(button=>{
+//     button.addEventListener('click',(e)=>{
+//         e.target.style.backgroundColor = "yellow"
+//         e.target.style.color ="#333"
+//     })
+// })
